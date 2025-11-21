@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fortnite: Battle Royale</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #ff7ee2, #6d4aff, #1e1b4b);
+        background-size: 300% 300%;
+        animation: gradientMove 10s ease infinite;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    .container {
+        width: 100%;
+        max-width: 950px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.12);
+        border: 2px solid rgba(255, 220, 255, 0.5);
+        border-radius: 15px;
+        padding: 35px;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 0 25px rgba(255, 150, 255, 0.4);
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        color: #ffd6ff;
+        text-shadow: 0 0 15px #ff8cf5;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.15rem;
+        line-height: 1.6;
+        color: #ffeaff;
+    }
+
+    /* Cuadro para imagen principal */
+    .image-box {
+        width: 100%;
+        height: 320px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 25px 0 35px 0;
+        box-shadow: 0 0 20px rgba(255, 200, 255, 0.6);
+    }
+
+    /* Dos columnas para texto */
+    .two-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .column-box {
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.10);
+        border: 1px solid rgba(255, 200, 255, 0.4);
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 150, 255, 0.2);
+    }
+
+    .download-btn {
+        display: inline-block;
+        padding: 15px 45px;
+        margin-top: 35px;
+        font-size: 1.3rem;
+        color: white;
+        background: linear-gradient(90deg, #ff73d9, #b47bff);
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 0 20px rgba(255, 150, 255, 0.7);
+        transition: .3s;
+    }
+
+    .download-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 30px rgba(255, 180, 255, 0.9);
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 200, 255, 0.5);
+        color: #ffe6ff;
+        font-size: 1rem;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Fortnite: Battle Royale</h1>
+
+    <p><strong>Tipo de juego:</strong> Shooter táctico multijugador en un mundo dinámico, competitivo y lleno de acción.</p>
+
+    <!-- Imagen principal -->
+    <div class="image-box">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/fortnite-chapter-1-end.jpg"
+        alt="Fortnite" 
+        style="width:100%; height:100%; object-fit: cover;">
+    </div>
+
+    <!-- Texto en dos columnas -->
+    <div class="two-columns">
+        <div class="column-box">
+            <p>
+                Fortnite: Battle Royale es una experiencia multijugador en línea donde 100 jugadores caen en una isla y deben competir para ser el último en pie. Cada partida combina exploración, combate táctico y 
+                construcción estratégica, creando una dinámica única que evoluciona constantemente.<br><br>
+                El mapa cambia con cada temporada, introduciendo nuevas zonas, desafíos, armas y mecánicas que mantienen el juego fresco y emocionante.
+            </p>
+        </div>
+
+        <div class="column-box">
+            <p>
+                Fortnite destaca por sus temporadas temáticas, cada una con una historia, eventos especiales y contenido exclusivo. Los jugadores pueden desbloquear trajes, mochilas, bailes y cosméticos únicos a través del Pase de Batalla.<br><br>
+                También ofrece colaboraciones con franquicias famosas, conciertos virtuales y eventos en vivo que hacen del juego un universo vibrante y en constante expansión.
+            </p>
+        </div>
+    </div>
+
+    <a href="#" class="download-btn">Descargar Juego (Prueba Gratuita)</a>
+
+    <div class="footer">
+        <p><strong>Créditos:</strong> Eduardo Ivan, Christian Leonardo, Diego Alejandro</p>
+    </div>
+
+</div>
+
+</body>
+</html>
